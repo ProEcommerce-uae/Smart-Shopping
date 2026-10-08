@@ -6,7 +6,7 @@
 
 <title>ProEcommerce UAE | Shop Gadgets, Fashion & More</title>
 
-<meta name="description" content="Shop and discover gadgets, fashion products, home and living products, fitness products, and gaming accessories in UAE.">
+<meta name="description" content="Shop and discover gadgets, fashion products, home and living products, fitness products, beauty products, and gaming accessories in UAE.">
 
 <meta name="robots" content="index, follow">
 <meta name="author" content="ProEcommerce UAE">
@@ -16,7 +16,7 @@
 <meta name="google-site-verification" content="C3E04qGEGMtmmr9IHt1gOGgtJL7hpCAds8Fg3YFarFE">
 
 <meta property="og:title" content="ProEcommerce UAE | Shop Gadgets, Fashion & More">
-<meta property="og:description" content="Discover gadgets, fashion, home and living, fitness and gaming products in UAE.">
+<meta property="og:description" content="Discover gadgets, fashion, home and living, fitness, beauty and gaming products in UAE.">
 <meta property="og:url" content="https://proecommerce-uae.github.io/ProEcommerceuae/">
 <meta property="og:type" content="website">
 
@@ -37,7 +37,7 @@
   "@id":"https://proecommerce-uae.github.io/ProEcommerceuae/#website",
   "url":"https://proecommerce-uae.github.io/ProEcommerceuae/",
   "name":"ProEcommerce UAE",
-  "description":"Discover gadgets, fashion, home and living, fitness and gaming products in UAE.",
+  "description":"Discover gadgets, fashion, home and living, fitness, beauty and gaming products in UAE.",
   "publisher":{
     "@id":"https://proecommerce-uae.github.io/ProEcommerceuae/#organization"
   }
@@ -51,7 +51,7 @@
   "@id":"https://proecommerce-uae.github.io/ProEcommerceuae/#webpage",
   "url":"https://proecommerce-uae.github.io/ProEcommerceuae/",
   "name":"ProEcommerce UAE | Shop Gadgets, Fashion & More",
-  "description":"Explore gadgets, fashion, home and living, fitness and gaming products in UAE."
+  "description":"Explore gadgets, fashion, home and living, fitness, beauty and gaming products in UAE."
 }
 </script>
 
@@ -255,13 +255,13 @@ color:#4b5563;
 
 .categories-grid{
 display:grid;
-grid-template-columns:repeat(5,1fr);
+grid-template-columns:repeat(6,1fr);
 gap:20px;
 }
 
 .category-card{
 background:#fff;
-padding:30px 20px;
+padding:30px 15px;
 border-radius:14px;
 text-align:center;
 box-shadow:0 5px 18px rgba(0,0,0,.08);
@@ -274,18 +274,19 @@ transform:translateY(-5px);
 }
 
 .category-icon{
-font-size:48px;
+font-size:45px;
 margin-bottom:15px;
 }
 
 .category-card h3{
 margin-bottom:8px;
 color:#0f172a;
+font-size:17px;
 }
 
 .category-card p{
 color:#64748b;
-font-size:14px;
+font-size:13px;
 }
 
 /* PRODUCTS */
@@ -315,8 +316,6 @@ align-items:center;
 justify-content:center;
 overflow:hidden;
 }
-
-/* UPDATED PRODUCT IMAGE SIZE */
 
 .product-image img{
 width:100%;
@@ -565,15 +564,17 @@ font-size:13px;
 color:#94a3b8;
 }
 
-/* MOBILE */
+/* TABLET */
 
-@media(max-width:1000px){
+@media(max-width:1100px){
 
 .categories-grid{
 grid-template-columns:repeat(3,1fr);
 }
 
 }
+
+/* MOBILE */
 
 @media(max-width:800px){
 
@@ -630,8 +631,6 @@ grid-template-columns:1fr;
 .product-image{
 height:250px;
 }
-
-/* UPDATED MOBILE IMAGE SIZE */
 
 .product-image img{
 transform:scale(1.15);
@@ -734,9 +733,9 @@ Discover <span>Gadgets, Fashion & More</span> in UAE
 
 <p>
 Discover gadgets, fashion products, home & living products, fitness products,
-and gaming accessories in UAE. Explore featured products including wireless
-earbuds, smart watches, power banks, sneakers, fitness equipment,
-gaming accessories and more.
+beauty products, and gaming accessories in UAE. Explore featured products
+including wireless earbuds, smart watches, power banks, sneakers, fitness
+equipment, gaming accessories, personal care products and more.
 </p>
 
 <div class="search-box">
@@ -781,8 +780,8 @@ Welcome to ProEcommerce UAE
 <p>
 ProEcommerce UAE is a product discovery website for shoppers in the UAE
 looking for useful gadgets, fashion products, home & living products,
-fitness products, and gaming accessories. Select a product to view it
-through our partner retailer.
+fitness products, beauty products, and gaming accessories. Select a product
+to view it through our partner retailer.
 </p>
 
 </div>
@@ -796,8 +795,8 @@ Shop by Category
 </h2>
 
 <p class="section-intro">
-Explore gadgets, fashion, home & living, fitness products,
-and gaming accessories available through our partner retailers.
+Explore gadgets, fashion, home & living, fitness, beauty and gaming products
+available through our partner retailers.
 </p>
 
 <div class="categories-grid">
@@ -832,6 +831,12 @@ and gaming accessories available through our partner retailers.
 <p>Fitness and workout products.</p>
 </div>
 
+<div class="category-card" data-category="Beauty & Personal Care">
+<div class="category-icon">💄</div>
+<h3>Beauty & Personal Care</h3>
+<p>Personal care and beauty products.</p>
+</div>
+
 </div>
 
 </section>
@@ -843,7 +848,7 @@ Featured Products
 </h2>
 
 <p class="section-intro">
-Discover gadgets, fashion, home & living, fitness and gaming products.
+Discover gadgets, fashion, home & living, fitness, beauty and gaming products.
 </p>
 
 <div class="products-grid" id="productsGrid">
@@ -1537,6 +1542,52 @@ Buying Guide
 </div>
 </article>
 
+<!-- 16 VASELINE LIP THERAPY -->
+
+<article
+class="product-card"
+data-category="Beauty & Personal Care"
+data-name="Vaseline Lip Therapy Original"
+data-description="Vaseline Lip Therapy Original 10g lip balm for everyday lip care and moisturizing.">
+
+<div class="product-image">
+
+<img
+src="Image/vaseline_lip_therapy_original.jpg"
+alt="Vaseline Lip Therapy Original 10g"
+loading="lazy">
+
+</div>
+
+<div class="product-info">
+
+<h3>Vaseline Lip Therapy Original</h3>
+
+<p>
+Vaseline Lip Therapy Original 10g for everyday lip care and moisturizing.
+</p>
+
+<div class="product-buttons">
+
+<a
+class="product-button"
+href="https://link.amazon/B0fyLQvkS"
+target="_blank"
+rel="nofollow sponsored noopener">
+Buy Now
+</a>
+
+<button
+class="guide-open-button"
+type="button"
+data-guide="vaselineGuide">
+Buying Guide
+</button>
+
+</div>
+</div>
+</article>
+
 </div>
 
 <div id="noResults">
@@ -1568,7 +1619,7 @@ About ProEcommerce UAE
 <p>
 ProEcommerce UAE is a product discovery website for shoppers in the UAE
 looking for useful gadgets, fashion products, home & living products,
-fitness products, and gaming accessories.
+fitness products, beauty products, and gaming accessories.
 </p>
 
 <p>
@@ -1693,16 +1744,6 @@ As an Amazon Associate I earn from qualifying purchases.
 
 <h3>Price and Value</h3>
 <p>Compare the features you need with the price.</p>
-
-<h3>Quick Checklist</h3>
-
-<ul class="guide-checklist">
-<li>Check compatibility.</li>
-<li>Review battery information.</li>
-<li>Consider comfort.</li>
-<li>Check fitness features.</li>
-<li>Compare value.</li>
-</ul>
 
 <div class="guide-highlight">
 
@@ -2564,6 +2605,95 @@ View Product on Amazon
 </div>
 
 <button class="guide-back">← Back to Products</button>
+
+<div class="guide-disclosure">
+<strong>Amazon Associates Disclosure:</strong>
+As an Amazon Associate I earn from qualifying purchases.
+</div>
+
+</div>
+</div>
+
+<!-- 16 VASELINE LIP THERAPY -->
+
+<div class="guide-modal" id="vaselineGuide">
+<div class="guide-modal-content">
+
+<button class="guide-close">×</button>
+
+<p class="guide-label">BUYING GUIDE</p>
+
+<h2>Vaseline Lip Therapy Original Buying Guide</h2>
+
+<p>
+Before buying a lip balm, consider the ingredients, intended use,
+packaging, size and your personal preferences.
+</p>
+
+<h3>Product Type</h3>
+<p>
+Check that the product is the original Vaseline Lip Therapy formula
+you are looking for.
+</p>
+
+<h3>Size</h3>
+<p>
+This product is listed as a 10g tube. Check the current product
+listing for the exact size and package details.
+</p>
+
+<h3>Ingredients</h3>
+<p>
+Review the ingredient list on the retailer's product page, especially
+if you have known sensitivities or allergies.
+</p>
+
+<h3>Everyday Lip Care</h3>
+<p>
+Consider whether the product suits your normal lip-care routine and
+personal preferences.
+</p>
+
+<h3>Packaging</h3>
+<p>
+Check the packaging, tube size and product details before purchasing.
+</p>
+
+<h3>Price and Value</h3>
+<p>
+Compare the listed size and product details with the current price.
+</p>
+
+<h3>Before You Buy</h3>
+
+<ul class="guide-checklist">
+<li>Check the product name.</li>
+<li>Review the ingredient information.</li>
+<li>Confirm the size.</li>
+<li>Check the current price.</li>
+<li>Review seller and product details.</li>
+</ul>
+
+<div class="guide-highlight">
+
+<h4>Vaseline Lip Therapy Original</h4>
+
+<p>
+Check the current product information, price and availability on Amazon.
+</p>
+
+<a class="guide-buy-button"
+href="https://link.amazon/B0fyLQvkS"
+target="_blank"
+rel="nofollow sponsored noopener">
+View Product on Amazon
+</a>
+
+</div>
+
+<button class="guide-back">
+← Back to Products
+</button>
 
 <div class="guide-disclosure">
 <strong>Amazon Associates Disclosure:</strong>
